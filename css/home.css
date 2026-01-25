@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(221, 216, 207);
+}
+
+/* Navbar container */
+.navbar {
+    background-color: rgb(90, 88, 88);
+    height: 70px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+
+}
+
+/* Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* Nav */
+.nav-links li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: rgb(153, 184, 212);
+    border-bottom: 2px solid blue ;
+}
+
+/* Login */
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    
+}
+
+.nav-btn{
+    /* border:2px solid blue; */
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    transition: all 0.3s ;
+}
+.nav-btn:hover{
+    transform: scale(1);
+
+}
